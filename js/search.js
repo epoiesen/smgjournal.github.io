@@ -3,7 +3,7 @@ $(document).ready(function () {
         searchInput.tipuesearch({
             'mode': 'json',
             'minimumLength': 2,
-            'contentLocation': 'tipuesearch/tipuesearch_content.json',
+            'contentLocation': 'https://smgjournal.github.io/tipuesearch/tipuesearch_content.json',
             highlightEveryTerm: true
         });
 
