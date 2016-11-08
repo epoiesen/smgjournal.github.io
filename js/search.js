@@ -3,7 +3,7 @@ $(document).ready(function () {
         searchInput.tipuesearch({
             'mode': 'json',
             'minimumLength': 2,
-            'contentLocation': '/hexotest/tipuesearch/tipuesearch_content.json',
+            'contentLocation': 'tipuesearch/tipuesearch_content.json',
             highlightEveryTerm: true
         });
 
